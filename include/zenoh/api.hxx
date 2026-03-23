@@ -19,7 +19,9 @@
 #include "api/config.hxx"
 #include "api/encoding.hxx"
 #include "api/enums.hxx"
+#if Z_FEATURE_SCOUTING == 1
 #include "api/hello.hxx"
+#endif
 #include "api/id.hxx"
 #include "api/keyexpr.hxx"
 #if defined(ZENOHCXX_ZENOHC) || Z_FEATURE_LIVELINESS == 1
@@ -32,7 +34,9 @@
 #include "api/queryable.hxx"
 #include "api/reply.hxx"
 #include "api/sample.hxx"
+#if Z_FEATURE_SCOUTING == 1
 #include "api/scout.hxx"
+#endif
 #include "api/session.hxx"
 #include "api/subscriber.hxx"
 #include "api/timestamp.hxx"
